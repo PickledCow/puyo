@@ -1,7 +1,7 @@
 ## Base class for puyos with physics.
 ## 
 ## Abstract base class for Puyos that move (that is, not static on the board).
-@icon("res://core/puyo/icons/puyo.svg")
+@icon("res://core/class_icons/puyo.svg")
 class_name Puyo
 extends RefCounted
 

@@ -2,17 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g6gnwi5kgx15"
-path="res://.godot/imported/falling_puyo.svg-79eead37276109e57ac481d2eb4ec205.ctex"
+uid="uid://dmkkja6hglkjb"
+path="res://.godot/imported/pair_generator.svg-c4ca46b7259a45eff9aaa791dab228b0.ctex"
 metadata={
-"has_editor_variant": true,
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://core/puyo/icons/falling_puyo.svg"
-dest_files=["res://.godot/imported/falling_puyo.svg-79eead37276109e57ac481d2eb4ec205.ctex"]
+source_file="res://core/class_icons/pair_generator.svg"
+dest_files=["res://.godot/imported/pair_generator.svg-c4ca46b7259a45eff9aaa791dab228b0.ctex"]
 
 [params]
 
@@ -40,5 +39,5 @@ process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
 svg/scale=1.0
-editor/scale_with_editor_scale=true
-editor/convert_colors_with_editor_theme=true
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

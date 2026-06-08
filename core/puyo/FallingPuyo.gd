@@ -1,7 +1,7 @@
 ## Class for free-falling puyos.
 ##
 ## [b]FallingPuyo[/b] is the class for Puyos that fall from gravity after either from chains removing support for Puyos above or from [ActivePuyo]s being split off a ledge.
-@icon("res://core/puyo/icons/falling_puyo.svg")
+@icon("res://core/class_icons/falling_puyo.svg")
 class_name FallingPuyo
 extends Puyo
 

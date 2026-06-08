@@ -1,5 +1,6 @@
 ## Generator for upcoming Puyo pairs given the game rules.
 ## 
+@icon("res://core/class_icons/pair_generator.svg")
 class_name PairGenerator
 extends RefCounted
 
@@ -24,12 +25,6 @@ var dropset_length : int
 ## Order of colors the generated puyo pairs will use.
 var color_order : PackedByteArray
 
-## Length of color_order array
-var color_order_length : int
-
-## First 4 colors that is invariant to color count
-var initial_four_color_order : PackedByteArray
-
 # ----------------------------------------
 # Dynamic Members, managed and modified by this class
 # ----------------------------------------
@@ -40,28 +35,17 @@ var color_index : int = 0
 ## Index of the current pair shape 
 var shape_index : int = 0
 
-## Flag for swapping back to the regulear color order after the first 4 colors are used
-var is_initial_four_colors : bool = true
-
 # ----------------------------------------
 # Methods
 # ----------------------------------------
 
+
+
 ## Gets the next color from the array, with consideration of the first 4 colors using a special pool
 func get_next_color() -> int:
-	var next_color : int
-	if not is_initial_four_colors:
-		next_color = color_order[color_index]
-		color_index = (color_index + 1) % color_order_length
-	else:
-		next_color = initial_four_color_order[color_index]
-		color_index += 1
-		if color_index >= 4:
-			is_initial_four_colors = false
-	
+	var next_color := color_order[color_index]
+	color_index = (color_index + 1) % color_order.size()
 	return next_color
-
-
 
 ## Generate a new puyo using provided data
 func generate_next_puyo() -> ActivePuyo:

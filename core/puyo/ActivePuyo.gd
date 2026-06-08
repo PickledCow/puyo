@@ -1,7 +1,7 @@
 ## Class for active puyo object.
 ##
 ## [b]ActivePuyo[/b] is the pair of Puyos that the player controls while it falls.[br]
-@icon("res://core/puyo/icons/active_puyo.svg")
+@icon("res://core/class_icons/active_puyo.svg")
 class_name ActivePuyo
 extends Puyo
 

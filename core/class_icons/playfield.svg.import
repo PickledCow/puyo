@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm5cidub3mai4"
-path="res://.godot/imported/puyo.svg-ded6352582d784af7e54a56ad1c63abf.ctex"
+uid="uid://cbktjsqwskosg"
+path="res://.godot/imported/playfield.svg-23035f6f9de169b2391cf496f3928128.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://core/puyo/icons/puyo.svg"
-dest_files=["res://.godot/imported/puyo.svg-ded6352582d784af7e54a56ad1c63abf.ctex"]
+source_file="res://core/class_icons/playfield.svg"
+dest_files=["res://.godot/imported/playfield.svg-23035f6f9de169b2391cf496f3928128.ctex"]
 
 [params]
 
