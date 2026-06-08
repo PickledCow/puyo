@@ -10,6 +10,9 @@ enum CELL_TYPE {
 	WALL=-1,
 }
 
+## Number of hidden rows above the visible playfield. These rows do not contribute to the chain.
+const HIDDEN_ROWS : int = 1
+
 ## Struct for a group of puyos
 class PuyoGroup:
 	## The colour of the group of puyos.
@@ -75,7 +78,7 @@ func get_groups() -> Array[PuyoGroupCollection]:
 	
 	# Create a flag array for checking if we've already visited a cell for the floodfill algorithm
 	var cell_visited := PackedByteArray()
-	
+
 	# Flood-fill through the board to get the puyo groups.
 	
 	
