@@ -1,12 +1,25 @@
 [gd_scene format=3 uid="uid://hlhwsf4g0tm1"]
 
 [ext_resource type="Script" uid="uid://cpv7kicomdkkg" path="res://test.gd" id="1_37kl0"]
+[ext_resource type="Script" uid="uid://dnwh6ak06bd82" path="res://core/PuyoRenderer.gd" id="2_8uh7m"]
 
 [node name="Control" type="Control" unique_id=1291512977]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = 43.0
+offset_right = 18.0
+offset_bottom = 43.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_37kl0")
+
+[node name="PuyoRenderer" type="Control" parent="." unique_id=385962243]
+clip_contents = true
+anchors_preset = 0
+offset_right = 360.0
+offset_bottom = 553.0
+script = ExtResource("2_8uh7m")
+metadata/_custom_type_script = "uid://dnwh6ak06bd82"

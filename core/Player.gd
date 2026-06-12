@@ -11,7 +11,7 @@ var game_rules: GameRules
 ## Unique data for the selected character, e.g. dropsets, chant data
 var character_data: CharacterData
 ## Adjustments to the player's gameplay, e.g. drop speed, extra garbage
-var handicap_settings
+var handicap_settings: PlayerHandicap
 
 # ----------------------------------------
 # Dynamic Members, managed and modified by itself 

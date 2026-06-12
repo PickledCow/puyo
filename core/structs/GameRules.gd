@@ -1,4 +1,5 @@
 ## Rules shared between players for the match
+@icon("res://core/class_icons/game_rules.svg")
 class_name GameRules
 extends RefCounted
 

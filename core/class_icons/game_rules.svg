@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="game_rules.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="27.577164"
+     inkscape:cy="61.341513"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="1920"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 1,1 C -0.30759199,1 -0.30759199,3 1,3 2.307592,3 2.307592,1 1,1 Z M 4,1 C 2.6911737,1 2.6911737,3 4,3 h 7 c 1.308826,0 1.308826,-2 0,-2 z M 1,5 C -0.30759199,5 -0.30759199,7 1,7 2.307592,7 2.307592,5 1,5 Z M 4,5 C 2.6911737,5 2.6911737,7 4,7 h 7 c 1.308826,0 1.308826,-2 0,-2 z M 1,9 c -1.30759186,0 -1.30759223,2 0,2 1.3075922,0 1.3075918,-2 0,-2 z M 4,9 C 2.6911737,9 2.6911737,11 4,11 H 4.2050781 C 4.3847148,10.064945 4.630405,9.3804735 4.7890625,9 Z"
+       sodipodi:nodetypes="sssssssssssssssssssssccs" />
+    <path
+       id="path3-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 7.018055,8 C 4.567221,8 3.52563,21.049703 8.750477,12 h 3.535156 c 5.224847,9.049703 4.078252,-4 1.732422,-4 z"
+       sodipodi:nodetypes="sccss" />
+  </g>
+</svg>

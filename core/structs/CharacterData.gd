@@ -1,4 +1,5 @@
 ## Settings unique to the character
+@icon("res://core/class_icons/character_data.svg")
 class_name CharacterData
 extends RefCounted
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3ek8jdvl54up"
-path="res://.godot/imported/color_generator.svg-3d15a69e610069bfdbb8ebce19dd7f19.ctex"
+uid="uid://cf1cm2r8udw8g"
+path="res://.godot/imported/player_handicap.svg-7a66dec2ae3fdbdd9f9ec12655e40e82.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://core/class_icons/color_generator.svg"
-dest_files=["res://.godot/imported/color_generator.svg-3d15a69e610069bfdbb8ebce19dd7f19.ctex"]
+source_file="res://core/class_icons/player_handicap.svg"
+dest_files=["res://.godot/imported/player_handicap.svg-7a66dec2ae3fdbdd9f9ec12655e40e82.ctex"]
 
 [params]
 

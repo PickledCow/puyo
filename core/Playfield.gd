@@ -44,6 +44,11 @@ var size: Vector2i
 # Functions
 # ----------------------------------------
 
+## Returns the board data. This is returned by reference so [i]please[/i] be responsible.
+func get_board() -> PackedInt64Array:
+	return data
+
+
 ## Convert from index to coordinates. Returns [code]Vector2i(-1, -1)[/code] if the index is invalid.
 func get_position_from_index(idx: int) -> Vector2i:
 	if idx < 0 or idx > data.size():
@@ -106,7 +111,7 @@ func get_groups() -> Array[PuyoGroupCollection]:
 
 ## Function for adding a group to [code]group_collections[/code] in [method get_groups].[br]
 ## Automatically resizes the array if space is needed.[br]
-##Should not be called outside that function.
+## Should not be called outside that function.
 func _add_group_collection(group_collections : Array[PuyoGroupCollection], group: PuyoGroup) -> void:
 	var group_size := group.puyos.size()
 	var collection_count := group_collections.size()
